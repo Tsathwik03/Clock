@@ -5,8 +5,6 @@ A simple digital clock built with **React + Vite**.
 ## 🚀 Live Demo
 [See the implementation live here](https://clock-nine-omega.vercel.app/)
 
-## 📸 Screenshot
-![Digital Clock Screenshot](./assets/screenshot.png)
 
 ## ⚙️ Features
 - Toggle between 12-hour and 24-hour formats
