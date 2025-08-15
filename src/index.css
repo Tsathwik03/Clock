@@ -1,0 +1,59 @@
+body {
+  background-image: url(assets/651.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clock-container {
+  backdrop-filter: blur(50px);
+  width: 100vw;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock {
+  color: black;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 14%, 99%, 0.75);
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.button-group button {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: monospace;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.button-group button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.05);
+}
